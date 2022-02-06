@@ -1,0 +1,58 @@
+:root {
+  --black-color: black;
+  --white-color: white;
+}
+
+.home-text-section {
+  grid-area: text-area;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  /* margin: 2rem; */
+  /* width: 50%; */
+}
+
+
+
+.home-50-50-grid {
+  margin-top: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "text-area image-area"
+    "text-area image-area";
+}
+.home-image-section {
+  grid-area: image-area;
+}
+
+
+.pad-2r{
+    margin: 10px 0;
+    border-radius: 0.3rem;
+}
+
+.home-button-wrap{
+    padding: 1rem;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* border: 1px solid; */
+}
+@media screen and (max-width: 480px) {
+    .home-text-section{
+        width: 100%;
+    }
+
+
+  .home-50-50-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "text-area"
+      "image-area";
+  }
+}

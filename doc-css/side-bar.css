@@ -1,0 +1,25 @@
+
+.side-bar-main{
+    border: 2px solid green;
+    grid-area: sidebar;
+    position: sticky;
+    top: 0rem;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* position: sticky; */
+
+}
+.text-style-none{
+    text-decoration: none;
+    color: black;
+}
+.component-style{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: large;
+    list-style: none;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    width: 100%;
+}
