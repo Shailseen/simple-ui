@@ -18,7 +18,7 @@
     <div class="body-grid-items">
       <nav class="nav-bar-main">
         <div class="nav-pills">
-          <h1>ABCD</h1>
+          <h1><span class="brand-logo">UI</span></h1>
           <h4>Guide</h4>
           <h4>Component</h4>
         </div>
@@ -31,10 +31,10 @@
 
       <div class="side-bar-main">
         <ul class="side-bar-component"><h3>Components</h3>
-          <!-- <li class="component-style"><a class="text-style-none" href="#main-avtar-section">Avtar</a></li> -->
-          <li class="component-style"><a class="text-style-none" href="#main-alert-section">Alert</a></li>
+          <li class="component-style"><a class="text-style-none" href="#avtar">Avtar</a></li>
+          <!-- <li class="component-style"><a class="text-style-none" href="#main-alert-section">Alert</a></li> -->
           <!-- <li class="component-style"><a class="text-style-none" href="">Badge</a></li> -->
-          <li class="component-style"><a class="text-style-none" href="">Button</a></li>
+          <li class="component-style"><a class="text-style-none" href="#button">Button</a></li>
           <!-- <li class="component-style"><a class="text-style-none" href="">Card</a></li>
           <li class="component-style"><a class="text-style-none" href="">Image</a></li>
           <li class="component-style"><a class="text-style-none" href="">Input</a></li>
@@ -53,6 +53,129 @@
         <i class="far fa-arrow-up"></i>
       </div>
 
+      <div class="section-main">
+        <!-- avtar section -->
+        <section class="section-component" id="avtar">
+          <div class="component-intro">
+            <h1>Avtar</h1>
+            <p class="intro-font-weight">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.</p>
+            <h3>Avatar Examples</h3>
+            <p>Avatar available in four different sizes.
+                avtar can be add using claas <span class="highlight">avtar</span> and then add type of class name for different sizes are <span class="highlight">avtar-x-large</span> <span class="highlight">avtar-large</span> <span class="highlight">avtar-small</span> <span class="highlight">avtar-x-small</span> 
+            </p>
+            <h4>Example for adding class name</h4>
+            <span class="highlight">class = "avtar avtar-small"</span>
+          </div>
+          <div class="component-outputs">
+                <div class="avtar-outputs">
+                    <img class="avtar avtar-x-large" src="images/img_avatar.png">
+                    <img class="avtar avtar-large" src="images/img_avatar.png">
+                    <img class="avtar avtar-small" src="images/img_avatar.png">
+                    <img class="avtar avtar-x-small" src="images/img_avatar.png">
+                </div>
+          </div>
+          <div class="code-snippet">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avtar%2520avtar-x-large%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%253D%2522avtar%2520avtar-large%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%253D%2522avtar%2520avtar-small%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%253D%2522avtar%2520avtar-x-small%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E"
+              style=border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </code>
+        </div>
+          <h4>Example of text-avtaar</h4>
+          <p>For example to add avtar with text </p>
+          <div class="component-outputs">
+              <div class="avtar-outputs">
+                  <div class="avtar avtar-bg-color avtar-x-large">
+                      AV
+                  </div>
+                  <div class="avtar avtar-bg-color avtar-large">
+                    AV
+                </div>
+                <div class="avtar avtar-bg-color avtar-small">
+                    AV
+                </div>
+                <div class="avtar avtar-bg-color avtar-x-small">
+                    AV
+                </div>
+              </div>
+          </div>
+     </section>
+
+
+     <!-- Button-Section -->
+
+     <section class="section-component" id="button">
+      <div class="component-intro">
+        <h1>Button</h1>
+        <p class="intro-font-weight">
+          Button are used for some action you have to perform on the page.
+          These are used in forms, login window, etc. various type of button for various purposes. 
+        </p>
+        <h3>Primary button & Link button</h3>
+      </div>
+      <div class="component-outputs">
+       <div class="button-output">
+         <button class="button-style-none solid-button">Primary-Solid</button>
+         <button class="button-style-none outline-button">Primary-Outline</button>
+         <button class="button-style-none secondary-button">Secondary</button>
+         <button class="button-style-none text-button">Primary-Text-link</button>
+         <button class="button-style-none link-button">Link-text</button>
+       </div>
+     </div>
+     <div class="code-snippet">
+       <code>
+         <iframe
+src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253EPrimary-Solid%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520outline-button%2522%253EPrimary-Outline%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520secondary-button%2522%253ESecondary%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520text-button%2522%253EPrimary-Text-link%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520link-button%2522%253ELink-text%253C%252Fbutton%253E"
+style="border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+       </code>
+     </div>
+     <h3>Icon button</h3>
+     <div class="component-outputs">
+       <div class="button-output">
+         <button class="button-style-none home-button-bg">
+           <i class="fas fa-home"></i>
+         </button>
+         <button class="button-style-none home-button">
+           <i class="fas fa-home"></i>
+         </button>
+         <button class="button-style-none home-button-text">
+           <i class="fas fa-home"></i> HOME
+         </button>
+       </div>
+     </div>
+
+     <div class="code-snippet">
+       <code>
+         <iframe
+src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-style-none%2520home-button-bg%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520home-button%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520home-button-text%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520HOME%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E"
+style="border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+       </code>
+     </div>
+
+     <h3>Floating action button</h3>
+     <div class="component-outputs">
+       <div class="button-output">
+         <div class="floating-button">
+           <i class="far fa-arrow-up"></i>
+         </div>
+       </div>
+     </div>
+     <div class="code-snippet">
+         <iframe
+src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522floating-button%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-arrow-up%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+style="width:100%; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+     </div>
+    </section>
+
+      </div>
       
       <footer class="footer-main"></footer>
     </div>

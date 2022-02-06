@@ -3,7 +3,8 @@
 @import './doc-css/side-bar.css';
 @import './doc-css/section.css';
 @import './doc-css/home.css';
-
+@import './component css/avtar.css';
+@import './component css/button.css';
 *{
     font-family: 'Noto Sans', sans-serif;
 }
@@ -42,11 +43,18 @@
     padding: 1rem;
     border-radius: 0.2rem;
     /* background-color: rgba(128, 128, 128, 0.137); */
-    border: 2px solid rgba(128, 128, 128, 0.616);
+    /* border: 2px solid var(--primary-color); */
 
 }
 
-@media screen and (max-width: 700px) {
+.section-component{
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 480px) {
 	/* .section-main {
 		padding: 1rem 1.625rem;
 	} */
@@ -112,5 +120,9 @@
 .floating-button i:nth-child(n){
     align-self: center;
 }
-
+.brand-logo{
+    font-size: 3rem;
+    font-family: 'Syne Tactile', cursive;
+    color: var(--primary-color);
+}
 

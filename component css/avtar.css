@@ -1,0 +1,44 @@
+.main-avtar-section{
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+}
+.avtar{
+    display: flex;
+    /* background-color: thistle; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* border: 2px solid; */
+}
+.avtar-bg-color{
+    background-color: var(--primary-color);
+}
+.avtar-outputs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-shrink: 3; */
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.avtar-x-large{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+}
+.avtar-large{
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+}
+.avtar-small{
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+}
+.avtar-x-small{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+}
