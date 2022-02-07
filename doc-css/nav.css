@@ -1,11 +1,8 @@
 .nav-bar-main{
     display: flex;
-    /* flex-wrap: wrap; */
-    /* border: 2px solid black; */
     grid-area: header;
     width: 100%;
     height: 10vh;
-    /* position: fixed; */
 }
 .nav-pills{
     display: flex;
@@ -18,13 +15,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: flex-end;
-    /* border: 2px solid red; */
-    /* height: 6vh; */
-    /* padding-top: 1rem; */
     align-items: center;
     padding-right: 1rem;
     gap: 1.5rem;
 }
-/* .contact-links:nth-child(3):hover{
-    color: chartreuse;
-} */

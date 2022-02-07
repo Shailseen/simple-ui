@@ -3,14 +3,12 @@
     justify-content: center;
     align-content: center;
     gap: 1rem;
-    /* flex-shrink: 3; */
     flex-wrap: wrap;
 }
 .button-output button:nth-child(n){
     align-self: center;
 }
 .button-style-none{
-    /* height: 2rem; */
     padding: 8px;
     width: fit-content;
     border-radius: 0.2rem;
