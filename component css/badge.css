@@ -1,0 +1,81 @@
+.badge{
+    border-radius: 50%;
+}
+.badge-avatar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    /* border: 1px solid; */
+}
+.online-status{
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 7.7rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid white;
+    background-color: green;
+}
+.offline-status{
+    margin-left: 6rem;
+    margin-top: 5rem;
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid white;
+    background-color: red;
+}
+.standby-status{
+    position: absolute;
+    margin-left: 4.8rem;
+    margin-top: 3.4rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid white;
+    background-color: blueviolet;
+}
+#dnd-status{
+    position: absolute;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 3.4rem;
+    color: red;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 50%;
+}
+.fa-shopping-cart{
+    font-size: 2rem;
+    color: #047bd5;
+}
+.fa-paper-plane{
+    font-size: 3rem;
+    color: white;
+    background-color: #229ED9;
+    border-radius: 50%;
+}
+.badge-icon{
+    border-radius: 50%;
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    border: 2px solid white;
+    background-color: var(--primary-color);
+}
+.badge-shopping-cart{
+    position: absolute;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.badge-outputs{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+}

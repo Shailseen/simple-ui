@@ -5,6 +5,8 @@
 @import "./doc-css/home.css";
 @import "./component css/avatar.css";
 @import "./component css/button.css";
+@import "./component css/alert.css";
+@import "./component css/badge.css";
 * {
   font-family: "Noto Sans", sans-serif;
 }
