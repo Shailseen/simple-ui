@@ -1,13 +1,13 @@
 
 .side-bar-main{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     grid-area: sidebar;
     position: sticky;
     top: 0rem;
     max-height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    /* position: sticky; */
+    width: 11rem;
 
 }
 .text-style-none{
@@ -22,4 +22,11 @@
     margin-top: 1rem;
     margin-right: 3rem;
     width: 100%;
+}
+
+@media screen and (max-width: 480px){
+    .side-bar-main{
+        width: 100%;
+    }
+    
 }
