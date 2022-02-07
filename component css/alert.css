@@ -13,7 +13,7 @@
 .main-alert-section > .component-intro li{
     list-style: none;
 }
-.alert-pack{
+.alert-box{
     display: flex;
     align-items: center;
     margin: 0.5rem;
