@@ -7,6 +7,9 @@
 @import "./component css/button.css";
 @import "./component css/alert.css";
 @import "./component css/badge.css";
+@import "./component css/card.css";
+@import "./component css/image.css";
+@import "./component css/Input.css";
 * {
   font-family: "Noto Sans", sans-serif;
 }

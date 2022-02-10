@@ -10,18 +10,22 @@
     width: 11rem;
 
 }
+.side-bar-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .text-style-none{
     text-decoration: none;
     color: black;
 }
 .component-style{
     cursor: pointer;
-    font-weight: 500;
     font-size: large;
     list-style: none;
     margin-top: 1rem;
-    margin-right: 3rem;
-    width: 100%;
 }
 
 @media screen and (max-width: 480px){
