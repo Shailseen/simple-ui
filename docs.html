@@ -47,10 +47,10 @@
           <li class="component-style">
             <a class="text-style-none" href="#button">Button</a>
           </li>
-          <!-- <li class="component-style"><a class="text-style-none" href="">Card</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Image</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Input</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Lists</a></li>
+          <li class="component-style"><a class="text-style-none" href="#card">Card</a></li>
+          <li class="component-style"><a class="text-style-none" href="#image">Image</a></li>
+          <li class="component-style"><a class="text-style-none" href="#input">Input</a></li>
+          <!-- <li class="component-style"><a class="text-style-none" href="">Lists</a></li>
           <li class="component-style"><a class="text-style-none" href="">Modal</a></li>
           <li class="component-style"><a class="text-style-none" href="">Navigation</a></li>
           <li class="component-style"><a class="text-style-none" href="">Rating</a></li>
@@ -375,12 +375,215 @@
             </iframe>
           </div>
         </section>
-      </div>
+      
+      <!-- card -->
+      <section class="section-component" id="card">
+        <div class="component-intro">
+          <h1>Card</h1>
+          <p class="intro-font-weight">
+           Card are used to show user related data collectively, like product details.
+          </p>
+          <h3>Cards vertical with (badge + text-overlay + card-dismiss)</h3>
+         </div>
+         <div class="component-outputs">
+            <!-- Vertical card with badge -->
+            <div class="card-output-vertical">
+             <div class="card-vertical box-shadow">
+               <div class="card-img img-center">
+                 <img class="img-responsive with-border" src="images/download.jpeg" alt="">
+                 <span class="badge-card">trending</span>
+               </div>
+               <div class="text-container">
+                 <h4>Google Pixel 4a (Just Black)</h4>
+                 <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                 <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+               </div>
+               <div class="card-button-container">
+                 <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+               </div>
+             </div>
 
-      <footer class="footer-main"></footer>
+             <!-- vertical card with badge and text-overlay -->
+
+             <div class="text-overlay-component box-shadow">
+              <div class="card-vertical text-overlay">
+                <div class="card-img img-center">
+                  <img class="img-responsive with-border" src="images/google-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg" alt="">
+                  <span class="badge-card">trending</span>
+                </div>
+                <div class="text-container">
+                  <h4>Google Pixel 4a (Just Black)</h4>
+                  <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                  <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+                </div>
+                <div class="card-button-container">
+                  <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+             </div>
+             <div class="text-overlay-message">
+               <h3>Out of stock</h3>
+             </div>
+             </div>
+
+            <!-- vertical card with dismiss -->
+
+             <div class="card-vertical box-shadow">
+               <div class="card-img img-center">
+                 <img class="img-responsive with-border" src="images/google-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg" alt="">
+                 <span class="badge-card">trending</span>
+                 <i id="close-btn" class="fal fa-times"></i></button>
+               </div>
+
+               <div class="text-container">
+                 <h4>Google Pixel 4a (Just Black)</h4>
+                 <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                 <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+               </div>
+               <div class="card-button-container">
+                 <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+               </div>
+            </div>
+       </div>
+       </div>
+
+           <div class="code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-vertical%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fdownload.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>  
+           </div>
+
+           <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-overlay-component%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-vertical%2520text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fgoogle-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-overlay-message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+           </div>
+
+           <div class="code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-vertical%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fgoogle-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522close-btn%2522%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+           </div>
+
+           <h3>Cards horizontal</h3>
+           <div class="component-outputs">
+             <div class="horizontal-card-output box-shadow">
+               <div class="horizontal-card">
+                 <div class="card-img img-center">
+                   <img class="img-responsive with-border" src="images/download.jpeg" alt="">
+                   <span class="badge-card">trending</span>
+                 </div>
+                 <div class="card-description-container">
+                 <div class="text-container text-grid">
+                   <h4>Google Pixel 4a (Just Black)</h4>
+                   <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                   <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+                 </div>
+                 <div class="card-button-container button-grid">
+                   <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                   <button class="button-style-none secondary-button">Move to wishlist</button>
+                 </div>
+                </div>
+               </div>
+             </div>
+           </div>
+
+           <div class="code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-output%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fdownload.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2520button-grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520secondary-button%2522%253EMove%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+           </div>
+      
+      </section>
+
+      <!-- images -->
+      <section class="section-component" id="image">
+        <h1>Responsive Image</h1>
+        <p class="font-intro-weight">
+          A responsive image will automatically adjust for different screen sizes and viewports.
+        </p>
+        <img class="img-responsive" src="images/1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp" alt="wallpaper">
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522images%252F1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp%2522%2520alt%253D%2522wallpaper%2522%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        <h1>Rounded image</h1>
+        <img class="img-round" src="images/1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp" alt="wallpaper">
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522images%252F1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp%2522%2520alt%253D%2522wallpaper%2522%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+      </section>
+
+
+      <!-- Input -->
+
+      <section class="section-component" id="input">
+        <h1>Input textbox</h1>
+        <p class="intro-font-weight">
+          Text box is used for to enter a para from user in a form.
+        </p>
+        <div class="component-outputs">
+          <textarea class="form-feild" rows="3" placeholder="Enter your text..."></textarea>
+        </div>
+
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-outputs%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ctextarea%2520class%253D%2522form-feild%2522%2520rows%253D%25223%2522%2520placeholder%253D%2522Enter%2520your%2520text...%2522%253E%250A%2520%2520%253C%252Ftextarea%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+
+        <h3>Input With Validation</h3>
+        <div class="component-outputs">
+
+          <div class="input-container">
+            <label class="input-label" for="email-box">Email:</label>
+            <input class="input-box" type="email" name="email-box" 
+            placeholder="Enter valid email" size="25">
+         </div>
+
+         <div class="input-container">
+          <label class="input-label" for="contact-number">Mobile No:</label>
+          <input id="input-number" class="input-box" type="text" 
+          placeholder="Enter 10 digit contact number">
+       </div>
+
+       <div class="code-snippet">
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520%250A%2520%2520placeholder%253D%2522Enter%2520valid%2520email%2522%2520size%253D%252225%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522contact-number%2522%253EMobile%2520No%253A%253C%252Flabel%253E%250A%253Cinput%2520id%253D%2522input-number%2522%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520%250Aplaceholder%253D%2522Enter%252010%2520digit%2520contact%2520number%2522%253E%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+       </div>
+
+        </div>
+        </section>
+        <!-- <span style="white-space:nowrap;color:#5f5f5f;opacity:.36;">________________________________________________________________________________</span> -->
+      </div>    
+      <footer class="footer-main">
+        <div class="copy-right">
+          <i class="fal fa-copyright"></i> 2022 UI Inc. All rights reserved.
+        </div>
+        <div class="icon-container">
+          <a class="footer-icon" href=""><i class="fab fa-github"></i></a>
+          <a class="footer-icon" href=""><i class="fab fa-twitter"></i></a>
+          <a class="footer-icon" href=""><i class="fab fa-linkedin-in"></i></a>
+      </footer>
     </div>
   </body>
-  <script src="app.js"></script>
+  <script src="doc-css/app.js"></script>
 </html>
 
 <!-- <button class="button-style-none secondary-button">Add Wishlist</button> -->
