@@ -12,6 +12,7 @@
 @import "./component css/Input.css";
 @import "./component css/rating.css";
 @import "./component css/text_utility.css";
+@import "./component css/navbar.css";
 
 
 * {
@@ -60,7 +61,7 @@
   margin: 1rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 750px) {
   .side-bar-main {
     position: static;
   }
