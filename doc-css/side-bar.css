@@ -2,17 +2,16 @@
 .side-bar-main{
     grid-area: sidebar;
     position: sticky;
-    top: 0rem;
+    top: 3rem;
     bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     max-height: 100vh;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 100%;
     height: fit-content;
-
 }
 .side-bar-component{
     display: flex;
