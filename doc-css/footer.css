@@ -6,7 +6,7 @@
     grid-area: footer;
     height: 6.8rem;
     border: 1px solid white;
-    border-top-color: gray;
+    border-top-color: var(--secondary-color);
 }
 
 .footer-main div:nth-child(2){
