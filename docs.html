@@ -22,8 +22,7 @@
       <nav class="nav-bar-main">
         <div class="nav-pills">
           <h1><span class="brand-logo">UI</span></h1>
-          <h4>Guide</h4>
-          <h4>Component</h4>
+          <h4 class="nav-button"><a href="index.html" class="text-style-none liink-home-button">HOME</a></h4>
         </div>
         <div class="contact-links">
           <i class="fab fa-github"></i>
@@ -50,14 +49,14 @@
           <li class="component-style"><a class="text-style-none" href="#card">Card</a></li>
           <li class="component-style"><a class="text-style-none" href="#image">Image</a></li>
           <li class="component-style"><a class="text-style-none" href="#input">Input</a></li>
-          <!-- <li class="component-style"><a class="text-style-none" href="">Lists</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Modal</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Navigation</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Rating</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Simplified Grid</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Slider</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Text Utilities</a></li>
-          <li class="component-style"><a class="text-style-none" href="">Toast/Notify</a></li> -->
+          <!-- <li class="component-style"><a class="text-style-none" href="">Lists</a></li> -->
+          <!-- <li class="component-style"><a class="text-style-none" href="">Modal</a></li> -->
+          <!-- <li class="component-style"><a class="text-style-none" href="">Navigation</a></li> -->
+          <li class="component-style"><a class="text-style-none" href="#rating">Rating</a></li>
+          <!-- <li class="component-style"><a class="text-style-none" href="">Simplified Grid</a></li> -->
+          <!-- <li class="component-style"><a class="text-style-none" href="">Slider</a></li> -->
+          <li class="component-style"><a class="text-style-none" href="#text-util">Text Utilities</a></li>
+          <!-- <li class="component-style"><a class="text-style-none" href="">Toast/Notify</a></li> -->
         </ul>
       </div>
 
@@ -566,9 +565,82 @@
         src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520%250A%2520%2520placeholder%253D%2522Enter%2520valid%2520email%2522%2520size%253D%252225%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522contact-number%2522%253EMobile%2520No%253A%253C%252Flabel%253E%250A%253Cinput%2520id%253D%2522input-number%2522%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520%250Aplaceholder%253D%2522Enter%252010%2520digit%2520contact%2520number%2522%253E%250A%253C%252Fdiv%253E"
         sandbox="allow-scripts allow-same-origin">
       </iframe>
-       </div>
+        </section>
 
+        <section class="section-component" id="rating">
+          <h1>Rating</h1>
+          <p class="intro-font-weight">
+            Rating is used for taking feedback from users.
+          </p>
+          <div class="component-outputs">
+          <div class="rating-outputs">
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star unrated"></i>
+          </div>
         </div>
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-outputs%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520unrated%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%2520%2520"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        </section>
+
+        <section class="section-component" id="text-util">
+          <h1>Text utility</h1>
+          <p class="intro-font-weight">
+            Examples for common text utilities to control text alignment, heading, weight, and more.
+          </p>
+          <h3>Heading util</h3>
+            <div class="component-outputs">
+              <h1>H1-Heading</h1>
+              <h2>H2-Heading</h2>
+              <h3>H3-Heading</h3>
+              <h4>H4-Heading</h4>
+              <h5>H5-Heading</h5>
+              <h6>H6-Heading</h6>
+            </div>
+            <div class="code-snippet">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1-Heading%253C%252Fh1%253E%250A%253Ch2%253EH2-Heading%253C%252Fh2%253E%250A%253Ch3%253EH3-Heading%253C%252Fh3%253E%250A%253Ch4%253EH4-Heading%253C%252Fh4%253E%250A%253Ch5%253EH5-Heading%253C%252Fh5%253E%250A%253Ch6%253EH6-Heading%253C%252Fh6%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          <h3>Para util</h3>
+          <p class="intro-font-weight">you can add word style in your para.</p>
+          <div class="component-outputs">
+            <p class="bold-text">Bold text</p>
+            <p>This text contain <sup>superscript</sup> text.</p>
+            <p>This text contain <sub>subscript</sub> text.</p>
+            <p>Some text are <span class="underline-text">Underline</span> <span class="overline-text">Overline</span> <span class="line_through-text">Line-through</span> text.</p>
+            <p class="primary-color-text">Primary-color-text.</p>
+            <p class="secondary-color-text">Secondary-color-text</p>
+            <p class="primary-background-color fit-content text-color-white">Primary background color text.</p>
+            <p class="secondary-background-color fit-content text-color-white">Secondary background color text.</p>
+            <p>This para contain <small>small text</small>.</p>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522bold-text%2522%253EBold%2520text%253C%252Fp%253E%250A%253Cp%253EThis%2520text%2520contain%2520%253Csup%253Esuperscript%253C%252Fsup%253E%2520text.%253C%252Fp%253E%250A%253Cp%253EThis%2520text%2520contain%2520%253Csub%253Esubscript%253C%252Fsub%253E%2520text.%253C%252Fp%253E%250A%253Cp%253ESome%2520text%2520are%2520%250A%2520%2520%253Cspan%2520class%253D%2522underline-text%2522%253EUnderline%253C%252Fspan%253E%2520%250A%2520%2520%253Cspan%2520class%253D%2522overline-text%2522%253EOverline%253C%252Fspan%253E%2520%250A%2520%2520%253Cspan%2520class%253D%2522line_through-text%2522%253ELine-through%253C%252Fspan%253E%2520text.%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-color-text%2522%253EPrimary-color-text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522secondary-color-text%2522%253ESecondary-color-text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-background-color%2520fit-content%2520text-color-white%2522%253EPrimary%2520background%2520color%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522secondary-background-color%2520fit-content%2520text-color-white%2522%253ESecondary%2520background%2520color%2520text.%253C%252Fp%253E%250A%253Cp%253EThis%2520para%2520contain%2520%253Csmall%253Esmall%2520text%253C%252Fsmall%253E.%253C%252Fp%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Align text</h3>
+          <div class="component-outputs">
+            <h6 class="text-center">H6-Heading Text Align Center</h6>
+            <h6 class="text-left">H6-Heading Text Align left</h6>
+            <h6 class="text-right">H6-Heading Text Align right</h6>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch6%2520class%253D%2522text-center%2522%253EH6-Heading%2520Text%2520Align%2520Center%253C%252Fh6%253E%250A%253Ch6%2520class%253D%2522text-left%2522%253EH6-Heading%2520Text%2520Align%2520left%253C%252Fh6%253E%250A%253Ch6%2520class%253D%2522text-right%2522%253EH6-Heading%2520Text%2520Align%2520right%253C%252Fh6%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
         </section>
         <!-- <span style="white-space:nowrap;color:#5f5f5f;opacity:.36;">________________________________________________________________________________</span> -->
       </div>    

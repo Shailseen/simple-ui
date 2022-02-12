@@ -1,20 +1,26 @@
 
 .side-bar-main{
-    /* border: 2px solid green; */
     grid-area: sidebar;
     position: sticky;
     top: 0rem;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     max-height: 100vh;
     overflow-x: hidden;
-    overflow-y: auto;
-    width: 11rem;
+    overflow-y: scroll;
+    width: 100%;
+    height: fit-content;
 
 }
 .side-bar-component{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    height: fit-content;
 }
 
 .text-style-none{
