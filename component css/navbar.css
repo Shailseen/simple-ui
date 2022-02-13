@@ -1,0 +1,70 @@
+:root{
+    --searchbar-color: rgba(172, 172, 172, 0.205);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    height: 10vh;
+}
+.brand-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: fit-content;
+    margin: 1rem;
+}
+
+.small-logo{
+    width: 2rem;
+    height: 2rem;
+}
+.font-lg{
+    font-size: 1.5rem;
+}
+
+.searchbar-style{
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    color: gray;
+    background-color: var(--searchbar-color);
+}
+
+.inputbox-style{
+    padding: 0.65rem;
+    border: none;
+    background-color: var(--searchbar-color);
+}
+.searchbar{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 10rem;
+}
+.cta-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 7rem;
+    margin-right: 1rem;
+}
+.cta-button .far{
+    font-size: 1.2rem;
+    color: black;
+}
+.icon-label-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.icon-label{
+    font-size: 10px;
+}
+.icon-label-container a{
+    text-align: center;
+}
