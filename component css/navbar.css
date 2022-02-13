@@ -1,5 +1,6 @@
 :root{
     --searchbar-color: rgba(172, 172, 172, 0.205);
+    --badge-red-color: #ff0000;
 }
 .navbar{
     display: flex;
@@ -25,32 +26,33 @@
 .font-lg{
     font-size: 1.5rem;
 }
-
+.searchbar button{
+    border: none;
+}
 .searchbar-style{
-    padding: 0.8rem;
-    font-size: 0.8rem;
     color: gray;
-    background-color: var(--searchbar-color);
 }
 
 .inputbox-style{
-    padding: 0.65rem;
     border: none;
     background-color: var(--searchbar-color);
+    width: 100%;
 }
 .searchbar{
     display: flex;
-    width: fit-content;
     justify-content: center;
-    align-items: center;
-    flex-basis: 10rem;
+    align-content: center;
+    height: 2rem;
+    flex-grow: 1;
+    max-width: 18rem;
 }
 .cta-button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: 7rem;
+    gap: 1.5rem;
     margin-right: 1rem;
+    margin-left: 1rem;
 }
 .cta-button .far{
     font-size: 1.2rem;
@@ -58,13 +60,22 @@
 }
 .icon-label-container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: center;
+    /* flex-direction: column; */
 }
-.icon-label{
+
+
+.badge-icon-card{
+    position: absolute;
+    margin-top: -0.4rem;
+    margin-left: 1.4rem;
     font-size: 10px;
-}
-.icon-label-container a{
-    text-align: center;
+    color: var(--white-color);
+    background-color: var(--badge-red-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
 }
