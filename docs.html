@@ -15,23 +15,24 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Simple-UI | Document</title>
   </head>
   <body>
     <div class="body-grid-items">
       <nav class="nav-bar-main">
+        <div class="hamburger-menu"><i class="fas fa-bars"></i></div>
         <div class="nav-pills">
-          <h1><span class="brand-logo">UI</span></h1>
+          <span class="brand-logo hide-logo">SIMPLE UI</span>
           <h4 class="nav-button"><a href="index.html" class="text-style-none liink-home-button">HOME</a></h4>
         </div>
         <div class="contact-links">
-          <i class="fab fa-github"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
+          <a href="https://github.com/Shailseen" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/Shailes62273951" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/shailesh-kumar-840b28220/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
       </nav>
 
-      <div class="side-bar-main">
+      <aside class="side-bar-main" id="side-bar">
         <ul class="side-bar-component">
           <h3>Components</h3>
           <li class="component-style">
@@ -49,16 +50,38 @@
           <li class="component-style"><a class="text-style-none" href="#card">Card</a></li>
           <li class="component-style"><a class="text-style-none" href="#image">Image</a></li>
           <li class="component-style"><a class="text-style-none" href="#input">Input</a></li>
-          <!-- <li class="component-style"><a class="text-style-none" href="">Lists</a></li> -->
-          <!-- <li class="component-style"><a class="text-style-none" href="">Modal</a></li> -->
           <li class="component-style"><a class="text-style-none" href="#navbar">Navbar</a></li>
           <li class="component-style"><a class="text-style-none" href="#rating">Rating</a></li>
-          <!-- <li class="component-style"><a class="text-style-none" href="">Simplified Grid</a></li> -->
-          <!-- <li class="component-style"><a class="text-style-none" href="">Slider</a></li> -->
+          <li class="component-style"><a class="text-style-none" href="#slider">Slider</a></li>
           <li class="component-style"><a class="text-style-none" href="#text-util">Text Utilities</a></li>
-          <!-- <li class="component-style"><a class="text-style-none" href="">Toast/Notify</a></li> -->
         </ul>
-      </div>
+      </aside>
+
+      <aside class="side-bar-main-mobile-view" id="side-bar-mobile">
+        <ul class="side-bar-component-mobile">
+          <h3>Components</h3>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#alert">Alert</a>
+          </li>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#avatar">Avatar</a>
+          </li>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#badge">Badge</a>
+          </li>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#button">Button</a>
+          </li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#card">Card</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#image">Image</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#input">Input</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#navbar">Navbar</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#rating">Rating</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#slider">Slider</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#text-util">Text Utilities</a></li>
+        </ul>
+        <div class="close-side-bar" id="close-button-side-bar"><i class="fal fa-times"></i></div>
+      </aside>
 
       <div id="floating-button-main" class="floating-button">
         <i class="far fa-arrow-up"></i>
@@ -78,29 +101,8 @@
               There are various type of alerts & want to add this alert in your
               html you need to add in each type of alert class Name
               <span class="highlight">alert-box</span> and then add type of
-              class name given below after each alert list
+              class name given below after each alert list<span class="highlight">success-alert</span>,<span class="highlight">warning-alert</span>,<span class="highlight">error-alert</span>,<span class="highlight">primary-alert</span>.
             </p>
-
-            <li>
-              <span class="success">success alert</span>&nbsp;&nbsp;
-              <span class="highlight">success-alert</span>(class name)
-            </li>
-
-            <li>
-              <span class="warning">warning alert</span>&nbsp;
-              <span class="highlight">warning-alert</span>(class name)
-            </li>
-
-            <li>
-              <span class="error">error alert</span
-              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <span class="highlight">error-alert</span>(class name)
-            </li>
-
-            <li>
-              <span class="primary">primary alert</span>&nbsp;&nbsp;
-              <span class="highlight">primary-alert</span>(class name)
-            </li>
           </div>
 
           <div class="component-outputs">
@@ -707,20 +709,18 @@
 </iframe>
           </div>
         </section>
-        <!-- <span style="white-space:nowrap;color:#5f5f5f;opacity:.36;">________________________________________________________________________________</span> -->
       </div>    
       <footer class="footer-main">
         <div class="copy-right">
           <i class="fal fa-copyright"></i> 2022 UI Inc. All rights reserved.
         </div>
         <div class="icon-container">
-          <a class="footer-icon" href=""><i class="fab fa-github"></i></a>
-          <a class="footer-icon" href=""><i class="fab fa-twitter"></i></a>
-          <a class="footer-icon" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="footer-icon" href="https://github.com/Shailseen" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="footer-icon" href="https://twitter.com/Shailes62273951" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="footer-icon" href="https://www.linkedin.com/in/shailesh-kumar-840b28220/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
       </footer>
     </div>
   </body>
   <script src="doc-css/app.js"></script>
 </html>
 
-<!-- <button class="button-style-none secondary-button">Add Wishlist</button> -->

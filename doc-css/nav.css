@@ -16,9 +16,9 @@
 }
 .nav-pills{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    width: 20rem;
 }
 .contact-links{
     display: flex;
@@ -29,9 +29,25 @@
     padding-right: 1rem;
     gap: 1.5rem;
 }
-
+.contact-links a{
+    font-size: 1.5rem;
+    color: var(--black-color);
+}
+.contact-links a:hover{
+    color: var(--hover-primary-color);
+}
 .nav-button > a:hover{
     text-decoration: underline;
     color: var(--primary-color);
     text-decoration-color: var(--hover-primary-color);
+}
+.hamburger-menu{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    margin-left: 0.5rem;
+}
+.hamburger-menu i{
+    cursor: pointer;
 }

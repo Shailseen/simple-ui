@@ -19,12 +19,14 @@
 * {
   font-family: "Noto Sans", sans-serif;
 }
+
 :root {
   --primary-color: #eb5eeb;
   --hover-primary-color: #fc2efc;
   --secondary-color: #80808044;
-  --hover-secondary-color: #8080807c;
+  --hover-secondary-color: #8080807c;  
   --dark-secondary-color: gray;
+  --component-hover-color: #f1f1f1;
 }
 .body-grid-items {
   display: grid;
@@ -61,7 +63,23 @@
   padding: 2rem;
   margin: 1rem;
 }
-
+@media screen and (min-width: 750px){
+  .hide-logo{
+    display: block;
+  }
+  .hamburger-menu{
+    display: none;
+  }
+  body{
+    background-color: var(--white-color);
+  }
+  .side-bar-main-mobile-view{
+    display: none;
+  }
+  .side-bar-main{
+    display: block;
+  }
+}
 @media screen and (max-width: 750px) {
   .side-bar-main {
     position: static;
@@ -70,15 +88,26 @@
     grid-template-columns: 1fr;
     grid-template-areas:
       "header"
-      "sidebar"
       "section"
       "footer";
+      width: 100%;
+      max-width: 100vw;
   }
-  body {
-    width: 100vw;
-  }
-  .body-grid-items {
+  body{
     width: 100%;
+    max-width: 100vw;
+  }
+  .side-bar-main{
+    display: none;
+  }
+  .side-bar-main-mobile-view{
+    display: none;
+  }
+  .hide-logo{
+    display: none;
+  }
+  .nav-button{
+    margin-left: 2rem;
   }
 }
 
@@ -121,7 +150,16 @@
   align-self: center;
 }
 .brand-logo {
-  font-size: 3rem;
+  font-size: 1.2rem;
   font-family: "Syne Tactile", cursive;
   color: var(--primary-color);
+}
+
+.installation-container{
+  display: flex;
+}
+.installation-guide{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
