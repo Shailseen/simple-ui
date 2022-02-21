@@ -63,7 +63,7 @@
   animation-iteration-count: 1;
   animation-duration: 1s;
   animation-name: supportanimation;
-  height: 100vh;
+  height: 100%;
   opacity: 1;
 }
 

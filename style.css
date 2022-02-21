@@ -18,8 +18,11 @@
 
 * {
   font-family: "Noto Sans", sans-serif;
+  scroll-behavior: smooth;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --primary-color: #eb5eeb;
   --hover-primary-color: #fc2efc;
@@ -75,6 +78,7 @@
   }
   .side-bar-main-mobile-view{
     display: none;
+    height: 100vh;
   }
   .side-bar-main{
     display: block;
