@@ -14,7 +14,10 @@
 @import "./component css/text_utility.css";
 @import "./component css/navbar.css";
 @import "./component css/slider.css";
-
+@import "./component css/lists.css";
+@import "./component css/grid.css";
+@import "./component css/toast.css";
+@import "./component css/modal.css";
 
 * {
   font-family: "Noto Sans", sans-serif;

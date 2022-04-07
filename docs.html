@@ -54,6 +54,10 @@
           <li class="component-style"><a class="text-style-none" href="#rating">Rating</a></li>
           <li class="component-style"><a class="text-style-none" href="#slider">Slider</a></li>
           <li class="component-style"><a class="text-style-none" href="#text-util">Text Utilities</a></li>
+          <li class="component-style"><a class="text-style-none" href="#list">Lists</a></li>
+          <li class="component-style"><a class="text-style-none" href="#grid">Grid</a></li>
+          <li class="component-style"><a class="text-style-none" href="#Toast">Toast</a></li>
+          <li class="component-style"><a class="text-style-none" href="#Modal">Modal</a></li>
         </ul>
       </aside>
 
@@ -79,6 +83,10 @@
           <li class="component-style-mobile"><a class="text-style-none" href="#rating">Rating</a></li>
           <li class="component-style-mobile"><a class="text-style-none" href="#slider">Slider</a></li>
           <li class="component-style-mobile"><a class="text-style-none" href="#text-util">Text Utilities</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#list">Lists</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#grid">Grid</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#Toast">Toast</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#Modal">Modal</a></li>
         </ul>
         <div class="close-side-bar" id="close-button-side-bar"><i class="fal fa-times"></i></div>
       </aside>
@@ -709,7 +717,279 @@
 </iframe>
           </div>
         </section>
-      </div>    
+
+        <section class="section-component" id="list">
+          <h1>Lists</h1>
+          <p class="intro-font-weight">
+            Lists can be used at so many places, navigation bar, aside bar, articles etc.
+          </p>
+          <h3>Example of Unordered List with bullets</h3>
+          <p>Add class according to bullet style. Copy html code below and add your desired list items.</p>
+          <div class="component-outputs">
+            <div class="lists-container">
+              <ul class="list-style-disc"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+              <ul class="list-style-circle"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+              <ul class="list-style-square"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+              <ul class="list-style-thumbsup"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-style-disc%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-style-circle%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-style-square%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-style-thumbsup%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Example of Ordered List with bullets</h3>
+          <p>Add class according to bullet style.Want to print reverse order list add <span class="highlight">reversed</span> attribute to ol element</p>
+          <div class="component-outputs">
+            <div class="lists-container">
+              <ol class="list-style-number" reversed>
+                <li>Reverse item</li>
+                <li>Reverse item</li>
+                <li>Reverse item</li>
+              </ol>
+
+              <ol class="list-style-smAlphabet">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+
+              <ol class="list-style-upperAlphabet">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+
+              <ol class="list-style-upperRoman">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+              
+              <ol class="list-style-devanagari">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+
+              <ol class="list-style-decimal-leading-zero">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list-style-number%2522%2520reversed%253E%250A%2520%2520%253Cli%253EReverse%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EReverse%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EReverse%2520item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-smAlphabet%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-upperAlphabet%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-upperRoman%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-devanagari%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-decimal-leading-zero%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>List With No Bullets</h3>
+          <div class="component-outputs">
+            <div class="lists-container">
+              <ul class="list-style-none">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cul%2520class%253D%2522list-style-none%2522%253E%250A%2520%2520%2520%253Cli%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253Eitem%25203%253C%252Fli%253E%250A%2520%253C%252Ful%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+        <section class="section-component" id="grid">
+          <h1>Grid</h1>
+          <p class="intro-font-weight">
+            Use grid when you want sections in view. Check below some examples of side by side cards.
+          </p>
+          <h3>Example of side by side <span class="highlight">50 : 50 layout</span></h3>
+          <div class="component-outputs">
+            <div class=" grids grid-50-50-layout">
+              <div class="grid-first"></div>
+              <div class="grid-second"></div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520grids%2520grid-50-50-layout%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-first%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-second%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>Example of side by side <span class="highlight">70 : 30 layout</span> </h3>
+          <div class="component-outputs">
+            <div class=" grids grid-70-30-layout">
+              <div class="grid-first"></div>
+              <div class="grid-second"></div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520grids%2520grid-70-30-layout%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-first%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-second%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>Example of side by side <span class="highlight">30 : 70 layout</span> </h3>
+          <div class="component-outputs">
+            <div class=" grids grid-30-70-layout">
+              <div class="grid-first"></div>
+              <div class="grid-second"></div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520grids%2520grid-30-70-layout%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-first%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-second%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>Example of a website page grid layout</h3>
+          <div class="component-outputs">
+            <div class="grids web-page-grid">
+              <div class="flex nav-bar">Navbar</div>
+              <div class="flex aside-lt">Aside-left</div>
+              <div class="flex aside-rt">Aside-right</div>
+              <div class="flex main-content">main</div>
+              <div class="flex footer-bar">footer</div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grids%2520web-page-grid%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520nav-bar%2522%253ENavbar%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520aside-lt%2522%253EAside-left%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520aside-rt%2522%253EAside-right%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520main-content%2522%253Emain%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520footer-bar%2522%253Efooter%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+      
+        </section>
+        
+        <section class="section-component" id="toast">
+          <h1>Toast</h1>
+          <p class="intro-font-weight">
+            This component can be used for toast or snackbar component. Toast is mostly used to show feedback message.
+          </p>
+          <h3>Example of toast</h3>
+          <p>There are mostly two types of toast one is for <span class="highlight">success</span> and <span class="highlight">error</span>. You can use by copying the Html code as well JavaScript also.</p>
+          <div class="component-outputs">
+            <div class="toast toast-success">
+              Login Succesfully!
+             <i class="fal fa-times"></i>
+          </div>
+          
+          <div class="toast toast-error">
+              Something Went Wrong!!.
+              <i class="fal fa-times"></i>
+          </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520Login%2520Succesfully%21%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E%250A%2520%250A%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520Something%2520Went%2520Wrong%21%21.%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Example For Live Demo</h3>
+          <p>You have also make a js file for fully functionality toast.</p>
+          <div class="toast toast-success" id="toast-example-success">
+            Login Succesfully!
+           <i class="fal fa-times"></i>
+        </div>
+          <div class="component-outputs">
+            <button class="button-style-none solid-button show-toast-example-btn">Live Demo</button>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%2520id%253D%2522toast-example-success%2522%253E%250A%2520%2520%2520%2520Login%2520Succesfully%21%250A%2520%2520%2520%253Ci%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2520show-toast-example-btn%2522%253ELive%2520Demo%253C%252Fbutton%253E%250A%2520%2520"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>JavaScript</h3>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520toastExample%2520%253D%2520document.querySelector%28%2522%2523toast-example-success%2522%29%253B%250Aconst%2520btnToShowToast%2520%253D%2520document.querySelector%28%2522.show-toast-example-btn%2522%29%253B%250A%250Alet%2520timerIdForToast%253B%250AbtnToShowToast.addEventListener%28%2522click%2522%252C%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520toastExample.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%2520%2520timerIdForToast%2520%253D%2520setTimeout%28%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520toastExample.style.display%2520%253D%2520%2522none%2522%253B%2520%2520%250A%2520%2520%2520%2520%257D%252C2000%250A%257D%29%250A%2520%2520"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+        <section class="section-component" id="Modal">
+          <h1>Modal</h1>
+          <p class="intro-font-weight">
+            Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.
+          </p>
+          <h3>Example of Modal</h3>
+          <div class="component-outputs">
+            <div class="modal-container">
+              <h4>Modal pop-up container</h4>
+              <button class="button-style-none solid-button">Go back</button>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%253Ch4%253EModal%2520pop-up%2520container%253C%252Fh4%253E%250A%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253EGo%2520back%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Live Modal</h3>
+          <div class="modal-container" id="example-modal-interstitial">
+            <h4>Modal pop-up container</h4>
+            <button class="button-style-none solid-button" id="example-modal-close">Go back</button>
+          </div>
+          <div class="component-outputs">
+            <button class="button-style-none solid-button" id="example-modal-CTA">Show Modal</button>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%2520id%253D%2522example-modal-interstitial%2522%253E%250A%2520%2520%253Ch4%253EModal%2520pop-up%2520container%253C%252Fh4%253E%250A%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%2520id%253D%2522example-modal-close%2522%253EGo%2520back%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%2520id%253D%2522example-modal-CTA%2522%253EShow%2520Modal%253C%252Fbutton%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>JavaScript</h3>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520modalInterstitial%2520%253D%2520document.querySelector%28%2522%2523example-modal-interstitial%2522%29%253B%250Aconst%2520modalCloseBtn%2520%253D%2520document.querySelector%28%2522%2523example-modal-close%2522%29%253B%250Aconst%2520modalCTA%2520%253D%2520document.querySelector%28%2522%2523example-modal-CTA%2522%29%253B%250A%250AmodalCTA.addEventListener%28%2522click%2522%252C%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520modalInterstitial.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%2520%2520document.body.style.overflow%2520%253D%2520%2522hidden%2522%250A%257D%29%250A%250AmodalCloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520modalInterstitial.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520document.body.style.overflow%2520%253D%2520%2522visible%2522%253B%250A%257D%29"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+      </div>
       <footer class="footer-main">
         <div class="copy-right">
           <i class="fal fa-copyright"></i> 2022 UI Inc. All rights reserved.

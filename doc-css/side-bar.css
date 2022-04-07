@@ -1,7 +1,7 @@
 .side-bar-main {
   grid-area: sidebar;
   position: sticky;
-  top: 3rem;
+  top: 0;
   bottom: 1rem;
   display: flex;
   justify-content: center;

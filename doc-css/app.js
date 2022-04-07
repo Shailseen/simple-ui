@@ -3,6 +3,30 @@ const floatingBtn = document.querySelector("#floating-button-main");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const sideBar = document.querySelector(".side-bar-main");
 const closeSideBar = document.querySelector("#close-button-side-bar");
+const toastExample = document.querySelector("#toast-example-success");
+const btnToShowToast = document.querySelector(".show-toast-example-btn");
+
+const modalInterstitial = document.querySelector("#example-modal-interstitial");
+const modalCloseBtn = document.querySelector("#example-modal-close");
+const modalCTA = document.querySelector("#example-modal-CTA");
+
+modalCTA.addEventListener("click", ()=>{
+    modalInterstitial.style.display = "block";
+    document.body.style.overflow = "hidden"
+})
+
+modalCloseBtn.addEventListener("click", ()=>{
+    modalInterstitial.style.display = "none";
+    document.body.style.overflow = "visible";
+})
+
+let timerIdForToast;
+btnToShowToast.addEventListener("click", ()=>{
+    toastExample.style.display = "block";
+    timerIdForToast = setTimeout(()=>{
+        toastExample.style.display = "none";  
+    },2000)
+})
 
 inputNumber.addEventListener("input",isInputValid);
 
