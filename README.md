@@ -48,6 +48,10 @@ Copy the below link to get started with Simple UI component. All you need to do 
 3. [Rating](https://simple-ui-component.netlify.app/docs.html#rating)
 4. [Slider](https://simple-ui-component.netlify.app/docs.html#slider)
 5. [Text Utilities](https://simple-ui-component.netlify.app/docs.html#text-util)
+6. [Lists](https://simple-ui-component.netlify.app/docs.html#list)
+7. [Grid](https://simple-ui-component.netlify.app/docs.html#grid)
+8. [Toast](https://simple-ui-component.netlify.app/docs.html#Toast)
+9. [Modal](https://simple-ui-component.netlify.app/docs.html#Modal)
 
 ## Overlooks
 
