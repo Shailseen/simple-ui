@@ -4,9 +4,9 @@
     padding: 10px;
     align-items: center;
     grid-area: footer;
-    height: 6.8rem;
-    border: 1px solid white;
-    border-top-color: var(--secondary-color);
+    height: 6.7rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 .footer-main div:nth-child(2){
@@ -16,7 +16,6 @@
 .icon-container{
     display: flex;
     gap: 1rem;
-    /* border: 2px solid green; */
 }
 
 .footer-icon:hover{
@@ -26,13 +25,12 @@
 
 .footer-icon{
     font-size: 20px;
-    border: 1px solid;
     padding: 10px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    background-color: black;
-    color: white;
+    color: var(--black-color);
+    background-color: var(--white-color);
 }
