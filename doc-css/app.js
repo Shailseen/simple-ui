@@ -72,4 +72,5 @@ window.addEventListener("scroll", () => {
   else sideBar.classList.remove("side-bar-main-static");
   if (getScrollPercent() >= 1) floatingBtn.style.visibility = "visible";
   else floatingBtn.style.visibility = "hidden";
+  document.getElementById("progress-bar").style.width = `${getScrollPercent()}%`;
 });
